@@ -2,7 +2,7 @@
 
 <img src="logo.png" width="128" alt="voxline logo">
 
-a transparent, glowing, always-on-top lyric overlay that follows your spotify playback in real time. free, no account beyond spotify itself, no subscription, no watermark, no "upgrade to pro" popup guilt-tripping you every 5 minutes.
+always-on-top lyric overlay that follows your spotify playback in real time. free, no account beyond spotify itself, no subscription, no watermark, no "upgrade to pro" popup guilt-tripping you every 5 minutes.
 
 ![platform](https://img.shields.io/badge/platform-Windows-6d5df0)
 ![status](https://img.shields.io/badge/source-closed-111111)
