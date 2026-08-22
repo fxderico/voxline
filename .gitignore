@@ -1,0 +1,17 @@
+# source stays local only, nothing but the readme/license ships to github
+*.cs
+*.xaml
+*.csproj
+Controls/
+Models/
+Services/
+assets/
+bin/
+obj/
+*.user
+spotify_credentials.json
+genius_credentials.json
+.cache-voxline.json
+voxline_settings.json
+voxline-auth.log
+colorwheel_recent.json
