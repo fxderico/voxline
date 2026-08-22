@@ -13,9 +13,11 @@ always-on-top lyric overlay that follows your spotify playback in real time. fre
 
 grab the latest `voxline.exe` from the [releases page](../../releases). that's the whole install process. no installer wizard, no "select components," no admin rights, no toolbar it tries to sneak onto your desktop. the .net runtime is baked into the exe, so it just runs.
 
-## first time setup (about 2 minutes, once)
+## first time setup
 
-voxline needs to talk to spotify on your behalf, and spotify makes every app register itself. this isn't voxline being difficult, it's just how spotify's api works for literally everyone:
+just run `voxline.exe`. it ships with a shared spotify connection, no setup at all, a browser tab pops up once to ask you to approve access, click agree, done.
+
+**catch:** spotify caps that shared connection at 5 accounts total, manually allowlisted, and as of may 2025 spotify only grants a higher cap to registered companies with 250k+ users, so that number isn't going up. if the shared connection is full or doesn't authorize, set up your own free spotify app instead, no cap, about 2 minutes, once:
 
 1. go to the [spotify developer dashboard](https://developer.spotify.com/dashboard) and log in with your normal spotify account.
 2. click **create app**. name it whatever you want, spotify doesn't care and neither do we.
@@ -28,7 +30,7 @@ voxline needs to talk to spotify on your behalf, and spotify makes every app reg
    ```json
    { "client_id": "YOUR_CLIENT_ID", "client_secret": "YOUR_CLIENT_SECRET" }
    ```
-6. run `voxline.exe`. a browser tab pops up once asking you to approve access, click agree, done. it remembers you after that, no daily relogin nonsense.
+6. run `voxline.exe`. same one-time browser approval, but now it's your own app with your own limit, not the shared one.
 
 ## using it
 
